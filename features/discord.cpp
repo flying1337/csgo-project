@@ -48,7 +48,7 @@ void c_discord::initialize() {
 	h.ready = discord_ready;
 	h.errored = discord_errored;
 
-	Discord_Initialize(str("617370438850445317"), &h, 0, 0);
+	Discord_Initialize(str("XXX"), &h, 0, 0);
 }
 
 void c_discord::run_callbacks() {
